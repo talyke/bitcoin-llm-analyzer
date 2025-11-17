@@ -1,7 +1,7 @@
 import requests
 import openai
-from secrets import config
 
+from secrets import config
 openai.api_key = config.OPENAI_API_KEY
 openai.base_url = "https://api.deepseek.com/v1"
 
