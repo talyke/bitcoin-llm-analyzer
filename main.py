@@ -3,6 +3,7 @@ from fetch_bcoin import fetch_bitcoin_metrics, summarize_bitcoin_trends
 from fetch_news import fetch_llm_news
 from llm_summary import summarize_llm_news
 
+
 def run_bitcoin_mode():
     metrics = fetch_bitcoin_metrics()
     summary = summarize_bitcoin_trends(metrics)
