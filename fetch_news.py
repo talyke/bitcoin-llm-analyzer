@@ -1,6 +1,6 @@
-from secrets import config
 import requests
 
+from secrets import config
 api_key = config.NEWS_API_KEY
 base_url = "https://newsdata.io/api/1/latest"
 
